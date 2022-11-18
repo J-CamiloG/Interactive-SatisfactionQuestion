@@ -1,0 +1,56 @@
+/* --------------importar fonts----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* ----------definir variables-------------- */
+:root{
+--color:hsl(0, 0%, 100%);
+--color2:hsl(217, 12%, 63%);
+--color3:hsl(216, 12%, 54%);
+--color4:hsl(213, 19%, 18%);
+--color5:hsl(216, 12%, 8%);
+--color6:hsl(214, 23%, 21%);
+--colorOrange:hsl(25, 97%, 53%);
+}
+/* -----------rensponsi---------- */
+@media screen and (min-width:400px) {
+    /* ----resetiamos valores de navegadores---- */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* -----body----- */
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--color5);
+    }
+/* ---------container----------- */
+.container{
+    background-color: var(--color4);
+    width: 75%;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+}
+/* ----------------header-------------- */
+.header{
+}
+/* ------------header_img----------- */
+.header_img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: var(--color6);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
